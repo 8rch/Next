@@ -3,12 +3,6 @@ import formidable from "formidable";
 import path from "path";
 import fs from "fs/promises";
 
-export const config = {
-	api: {
-		bodyParser: false,
-	},
-};
-
 const readFile = (
 	req: NextApiRequest,
 	saveLocally?: boolean
@@ -38,6 +32,12 @@ const handler: NextApiHandler = async (req, res) => {
 	}
 	await readFile(req, true);
 	res.json({ done: "ok" });
+};
+
+export const config = {
+	api: {
+		bodyParser: false,
+	},
 };
 
 export default handler;
