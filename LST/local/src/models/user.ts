@@ -5,7 +5,7 @@ const UserSchema = new Schema(
 		email: {
 			type: String,
 			unique: true,
-			required: [true, "Email is required"],
+			required: [true, "Se requiere Email"],
 			match: [
 				/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
 				"Email is invalid",
@@ -13,12 +13,12 @@ const UserSchema = new Schema(
 		},
 		password: {
 			type: String,
-			required: [true, "Password is required"],
+			required: [true, "Se requiere Password "],
 			select: false,
 		},
 		fullname: {
 			type: String,
-			required: [true, "fullname is required"],
+			required: [true, "Se requiere Nombre Completo"],
 			minLength: [3, "fullname must be at least 3 characters"],
 			maxLength: [20, "fullname must be at most 20 characters"],
 		},
