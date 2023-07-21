@@ -54,5 +54,3 @@ Explica la licencia del proyecto y los términos de uso.
 
 Contacto
 Si tienes preguntas o comentarios, por favor contáctame a través de bryanmoiseschamorro@gmail.com o puedes llamarme directamente a mi número de contacto en Canadá: +1 (581) 349-7014.
-
-Espero que este README te ayude a tener una mejor comprensión de cómo correr y contribuir a tu proyecto de Next.js. No dudes en personalizarlo según las necesidades específicas de tu proyecto. ¡Buena suerte con tu aplicación y desarrollo!
