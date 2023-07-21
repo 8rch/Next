@@ -1,7 +1,10 @@
 import mongoose from "mongoose";
 
-const { MONGODB_URI } = process.env;
+// const { MONGODB_URI } = process.env;
 
+const MONGODB_URI ="mongodb+srv://bryan:<password>@cluster0.wyarnsv.mongodb.net/?retryWrites=true&w=majority"; 
+
+console.log(MONGODB_URI);
 if (!MONGODB_URI) {
 	throw new Error("MONGODB_URI must be defined");
 }
