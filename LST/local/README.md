@@ -1,56 +1,30 @@
 Addeco Assessment - Aplicación Next.js
 
+Requisitos Previos Node.js (v15.16.1) y npm (v9.0.0) instalados en tu sistema. Una base de datos MongoDB en la que se puedan almacenar las credenciales de inicio de sesión. Instalación Clone este repositorio en su máquina local: bash
 
-Requisitos Previos
-Node.js (v15.16.1) y npm (v9.0.0) instalados en tu sistema.
-Una base de datos MongoDB en la que se puedan almacenar las credenciales de inicio de sesión.
-Instalación
-Clona este repositorio en tu máquina local:
-bash
+git clone https://github.com/8rch/Next.git Navegue al directorio del proyecto: bash
 
-git clone https://github.com/8rch/Next.git
-Navega al directorio del proyecto:
-bash
+cd Next Instale las dependencias necesarias: bash
 
-cd Next
-Instala las dependencias necesarias:
-bash
+npm install Configuración copie el archivo .env.template y renómbrelo como .env: bash
 
-npm install
-Configuración
-Copia el archivo .env.template y renómbralo como .env:
-bash
-
-cp .env.template .env
-Rellena las variables de entorno en el archivo .env con la configuración necesaria. Asegúrate de agregar la conexión a tu base de datos MongoDB.
-Ejecución
-Para iniciar la aplicación en modo de desarrollo, ejecuta el siguiente comando:
+cp .env.template .env Rellene las variables de entorno en el archivo .env con la configuración necesaria. Asegúrese de agregar la conexión a su base de datos MongoDB. 
+Ejecución: para iniciar la aplicación en modo de desarrollo, ejecute el siguiente comando:
 
 bash
 
-npm run dev
-La aplicación estará disponible en http://localhost:3000.
+npm run dev La aplicación estará disponible en http://localhost:3000.
 
-Autenticación
-Al acceder a la aplicación, serás redirigido a la página de inicio de sesión. Puedes utilizar diferentes métodos de inicio de sesión, como cuentas de GitHub, Facebook o Google, dependiendo de cómo hayas configurado la autenticación.
+Autenticación: Al acceder a la aplicación, será redirigido a la página de inicio de sesión. Puede utilizar diferentes métodos de inicio de sesión, como cuentas de GitHub, Facebook o Google, dependiendo de cómo haya configurado la autenticación.
 
 Una vez iniciada la sesión, se realizará una validación de las credenciales proporcionadas, utilizando la base de datos MongoDB para verificar la autenticidad del usuario.
 
-Drag and Drop
-La funcionalidad de arrastrar y soltar está disponible en la página de tareas. Puedes crear tareas simples y moverlas utilizando el drag and drop. Las tareas se pueden editar directamente desde el escritorio.
+Drag and Drop: La funcionalidad de arrastrar y soltar está disponible en la página de tareas. Puede crear tareas simples y moverlas utilizando el drag and drop. Las tareas se pueden editar directamente desde el escritorio.
 
-Pruebas de Control de Variables
-Se han implementado pruebas para verificar la funcionalidad de las variables y para asegurarse de que los passwords no sean retornados en la aplicación.
+Pruebas de Control de Variables: Se han implementado pruebas para verificar la funcionalidad de las variables y para asegurarse de que los passwords no sean retornados en la aplicación.
 
-Contribución
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+Contribución: Si desea contribuir a este proyecto, por favor siga los siguientes pasos:
 
-Crea un fork del repositorio y clónalo en tu máquina local.
-Crea una nueva rama para tu funcionalidad o corrección de errores.
-Realiza los cambios necesarios y haz commit de tus cambios.
-Envía un pull request a la rama principal del repositorio.
-Licencia
-Explica la licencia del proyecto y los términos de uso.
+Cree un fork del repositorio y clónelo en su máquina local. Cree una nueva rama para su funcionalidad. Realice los cambios necesarios y haga commit de sus cambios. Envíe un pull request a la rama principal del repositorio. Licencia Explica la licencia del proyecto y los términos de uso.
 
-Contacto
-Si tienes preguntas o comentarios, por favor contáctame a través de bryanmoiseschamorro@gmail.com o puedes llamarme directamente a mi número de contacto en Canadá: +1 (581) 349-7014.
+Contacto: Si tiene preguntas o comentarios, por favor contácteme a través de bryanmoiseschamorro@gmail.com o puede llamarme directamente a mi número de contacto en Canadá: +1 (581) 349-7014.
